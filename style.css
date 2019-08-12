@@ -27,6 +27,7 @@ body {
   padding: 3em 1.5em;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   background: #ffffff05 linear-gradient(45deg, #7b4397, #dc2430);
+  transition: border-radius 1s;
   animation: bgblob 4s infinite 0.5s;
 }
 
@@ -44,7 +45,8 @@ body {
 
 .clock,
 .date {
-  filter: drop-shadow(0 5px 2px #00000090);
+  /* filter: drop-shadow(0 5px 2px #00000090); */
+  text-shadow: 0 5px 5px #000000bb;
 }
 
 @keyframes bgblob {
