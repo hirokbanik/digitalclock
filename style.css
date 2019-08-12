@@ -20,7 +20,7 @@ body {
   background-image: radial-gradient(#121212, #000000);
   color: #ffffffdd;
   text-align: center;
-  line-height: 4em;
+  line-height: 3em;
 }
 
 .clock-box {
@@ -42,10 +42,15 @@ body {
 .date {
   font-size: 2em;
 }
+.am-pm {
+  font-family: sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 0.2em;
+}
 
 .clock,
-.date {
-  /* filter: drop-shadow(0 5px 2px #00000090); */
+.date,
+.am-pm {
   text-shadow: 0 5px 5px #000000bb;
 }
 
