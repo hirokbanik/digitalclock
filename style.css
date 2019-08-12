@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Bungee+Shade:regular);
+@import url(https://fonts.googleapis.com/css?family=Teko:regular);
 
 *,
 *::before,
@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Bungee Shade", sans-serif;
+  font-family: "Teko", sans-serif;
 }
 html,
 body {
@@ -24,15 +24,14 @@ body {
 }
 
 .clock-box {
-  padding: 10em 1.5em;
+  padding: 3em 1.5em;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-  border: 1px solid #ffffff10;
-  background-color: #ffffff05;
-  animation: ani 8s linear infinite;
+  background: #ffffff05 linear-gradient(45deg, #7b4397, #dc2430);
+  animation: bgblob 4s infinite 0.5s;
 }
 
 .clock {
-  font-size: 4em;
+  font-size: 4.5em;
 }
 
 .clock * {
@@ -45,10 +44,10 @@ body {
 
 .clock,
 .date {
-  filter: drop-shadow(0 10px 2px #000000);
+  filter: drop-shadow(0 5px 2px #00000090);
 }
 
-@keyframes ani {
+@keyframes bgblob {
   0% {
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   }
